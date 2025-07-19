@@ -1,0 +1,136 @@
+2025-07-19 02:19:15,447 - INFO - Setting up command-line argument parser
+2025-07-19 02:19:15,447 - INFO - Added 'word' argument to parser
+2025-07-19 02:19:15,447 - INFO - Parsed arguments: Namespace(word='hospital')
+2025-07-19 02:19:15,447 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 02:19:16,938 - INFO - Received response for word: hospital with status code: 200
+2025-07-19 02:20:28,353 - INFO - Setting up command-line argument parser
+2025-07-19 02:20:28,353 - INFO - Added 'word' argument to parser
+2025-07-19 02:20:28,353 - INFO - Parsed arguments: Namespace(word='hospital')
+2025-07-19 02:20:28,353 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 02:20:29,745 - INFO - Received response for word: hospital with status code: 200
+2025-07-19 02:21:45,289 - INFO - Setting up command-line argument parser
+2025-07-19 02:21:45,289 - INFO - Added 'word' argument to parser
+2025-07-19 02:21:45,290 - INFO - Parsed arguments: Namespace(word='hospital')
+2025-07-19 02:21:45,290 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 02:21:46,752 - INFO - Received response for word: hospital with status code: 200
+2025-07-19 02:29:06,403 - INFO - Setting up command-line argument parser
+2025-07-19 02:29:06,403 - INFO - Added 'word' argument to parser
+2025-07-19 02:29:35,894 - INFO - Setting up command-line argument parser
+2025-07-19 02:29:35,895 - INFO - Added 'word' argument to parser
+2025-07-19 02:29:54,944 - INFO - Setting up command-line argument parser
+2025-07-19 02:29:54,944 - INFO - Added 'word' argument to parser
+2025-07-19 02:30:49,375 - INFO - Setting up command-line argument parser
+2025-07-19 02:30:49,376 - INFO - Added 'word' argument to parser
+2025-07-19 02:31:18,199 - INFO - Setting up command-line argument parser
+2025-07-19 02:31:18,199 - INFO - Added 'word' argument to parser
+2025-07-19 02:31:31,723 - INFO - Setting up command-line argument parser
+2025-07-19 02:31:31,723 - INFO - Added 'word' argument to parser
+2025-07-19 02:31:54,406 - INFO - Setting up command-line argument parser
+2025-07-19 02:31:54,406 - INFO - Added 'word' argument to parser
+2025-07-19 02:32:36,811 - INFO - Setting up command-line argument parser
+2025-07-19 02:32:36,811 - INFO - Added 'word' argument to parser
+2025-07-19 02:32:36,812 - INFO - Parsed arguments: Namespace(word='hospital')
+2025-07-19 02:32:36,812 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 02:32:38,358 - INFO - Received response for word: hospital with status code: 200
+2025-07-19 02:32:53,127 - INFO - Setting up command-line argument parser
+2025-07-19 02:32:53,128 - INFO - Added 'word' argument to parser
+2025-07-19 03:02:23,192 - WARNING - No definitions found for word: nonexistentword
+2025-07-19 03:02:23,194 - ERROR - Invalid word input: 12345
+2025-07-19 03:02:23,194 - ERROR - Invalid word input: 
+2025-07-19 03:05:52,665 - WARNING - No definitions found for word: nonexistentword
+2025-07-19 03:05:52,668 - ERROR - Invalid word input: 12345
+2025-07-19 03:05:52,668 - ERROR - Invalid word input: 
+2025-07-19 03:07:12,206 - WARNING - No definitions found for word: nonexistentword
+2025-07-19 03:07:12,209 - ERROR - Invalid word input: 12345
+2025-07-19 03:07:12,209 - ERROR - Invalid word input: 
+2025-07-19 03:07:24,495 - WARNING - No definitions found for word: nonexistentword
+2025-07-19 03:07:24,509 - ERROR - Invalid word input: 12345
+2025-07-19 03:07:24,510 - ERROR - Invalid word input: 
+2025-07-19 03:07:45,303 - INFO - Fetching definition for word: Hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//Hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:07:47,038 - INFO - Received response for word: Hospital with status code: 200
+2025-07-19 03:07:56,523 - INFO - Fetching definition for word: docter from URL: https://dictionaryapi.com/api/v3/references/medical/json//docter?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:07:58,262 - INFO - Received response for word: docter with status code: 200
+2025-07-19 03:08:14,669 - INFO - Fetching definition for word: Hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//Hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:08:16,820 - INFO - Received response for word: Hospital with status code: 200
+2025-07-19 03:08:24,316 - INFO - Fetching definition for word: Doctor from URL: https://dictionaryapi.com/api/v3/references/medical/json//Doctor?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:08:26,050 - INFO - Received response for word: Doctor with status code: 200
+2025-07-19 03:08:31,852 - ERROR - Invalid word input: 3e3
+2025-07-19 03:08:38,878 - INFO - Fetching definition for word: Docter from URL: https://dictionaryapi.com/api/v3/references/medical/json//Docter?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:08:40,578 - INFO - Received response for word: Docter with status code: 200
+2025-07-19 03:10:37,426 - INFO - Fetching definition for word: Docter from URL: https://dictionaryapi.com/api/v3/references/medical/json//Docter?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:10:39,395 - INFO - Received response for word: Docter with status code: 200
+2025-07-19 03:18:27,756 - INFO - Fetching definition for word: Doctor from URL: https://dictionaryapi.com/api/v3/references/medical/json//Doctor?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:18:29,713 - INFO - Received response for word: Doctor with status code: 200
+2025-07-19 03:18:53,884 - ERROR - Invalid word input: 345
+2025-07-19 03:19:55,071 - INFO - Fetching definition for word: Docter from URL: https://dictionaryapi.com/api/v3/references/medical/json//Docter?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:19:56,893 - INFO - Received response for word: Docter with status code: 200
+2025-07-19 03:20:56,802 - INFO - Fetching definition for word: Docter from URL: https://dictionaryapi.com/api/v3/references/medical/json//Docter?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:20:58,518 - INFO - Received response for word: Docter with status code: 200
+2025-07-19 03:22:36,637 - INFO - Fetching definition for word: Docter from URL: https://dictionaryapi.com/api/v3/references/medical/json//Docter?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:22:38,492 - INFO - Received response for word: Docter with status code: 200
+2025-07-19 03:23:39,390 - INFO - Fetching definition for word: Docter from URL: https://dictionaryapi.com/api/v3/references/medical/json//Docter?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:23:40,807 - INFO - Received response for word: Docter with status code: 200
+2025-07-19 03:24:27,568 - INFO - Fetching definition for word: Docter from URL: https://dictionaryapi.com/api/v3/references/medical/json//Docter?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:24:29,454 - INFO - Received response for word: Docter with status code: 200
+2025-07-19 03:26:54,853 - INFO - Fetching definition for word: Docter from URL: https://dictionaryapi.com/api/v3/references/medical/json//Docter?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:26:56,356 - INFO - Received response for word: Docter with status code: 200
+2025-07-19 03:26:56,357 - WARNING - No definitions found for word: Docter
+2025-07-19 03:27:21,437 - INFO - Starting tests for MerriamWebsterAPI.fetch_definition method
+2025-07-19 03:27:21,703 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:27:21,703 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:27:23,230 - INFO - Received response for word: hospital with status code: 200
+2025-07-19 03:27:23,230 - INFO - Received response for word: hospital with status code: 200
+2025-07-19 03:27:23,233 - INFO - Fetching definition for word: nonexistentword from URL: https://dictionaryapi.com/api/v3/references/medical/json//nonexistentword?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:27:23,233 - INFO - Fetching definition for word: nonexistentword from URL: https://dictionaryapi.com/api/v3/references/medical/json//nonexistentword?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-19 03:27:24,682 - INFO - Received response for word: nonexistentword with status code: 200
+2025-07-19 03:27:24,682 - INFO - Received response for word: nonexistentword with status code: 200
+2025-07-19 03:27:24,683 - WARNING - No definitions found for word: nonexistentword
+2025-07-19 03:27:24,683 - WARNING - No definitions found for word: nonexistentword
+2025-07-19 03:27:24,684 - ERROR - Invalid word input: 12345
+2025-07-19 03:27:24,684 - ERROR - Invalid word input: 12345
+2025-07-19 03:27:24,684 - ERROR - Invalid word input: 
+2025-07-19 03:27:24,684 - ERROR - Invalid word input: 
+2025-07-19 03:27:24,684 - INFO - All test cases passed.
+2025-07-19 03:27:24,684 - INFO - All test cases passed.
+2025-07-19 03:27:24,706 - INFO - Tests completed.
+2025-07-19 03:27:24,706 - INFO - Tests completed.
+2025-07-20 00:41:15,764 - INFO - Starting tests for MerriamWebsterAPI.fetch_definition method
+2025-07-20 00:41:15,968 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-20 00:41:15,968 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-20 00:41:17,769 - INFO - Received response for word: hospital with status code: 200
+2025-07-20 00:41:17,769 - INFO - Received response for word: hospital with status code: 200
+2025-07-20 00:41:17,770 - INFO - Fetching definition for word: nonexistentword from URL: https://dictionaryapi.com/api/v3/references/medical/json//nonexistentword?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-20 00:41:17,770 - INFO - Fetching definition for word: nonexistentword from URL: https://dictionaryapi.com/api/v3/references/medical/json//nonexistentword?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-20 00:41:19,434 - INFO - Received response for word: nonexistentword with status code: 200
+2025-07-20 00:41:19,434 - INFO - Received response for word: nonexistentword with status code: 200
+2025-07-20 00:41:19,434 - WARNING - No definitions found for word: nonexistentword
+2025-07-20 00:41:19,434 - WARNING - No definitions found for word: nonexistentword
+2025-07-20 00:41:19,435 - ERROR - Invalid word input: 12345
+2025-07-20 00:41:19,435 - ERROR - Invalid word input: 12345
+2025-07-20 00:41:19,436 - ERROR - Invalid word input: 
+2025-07-20 00:41:19,436 - ERROR - Invalid word input: 
+2025-07-20 00:41:19,436 - INFO - All test cases passed.
+2025-07-20 00:41:19,436 - INFO - All test cases passed.
+2025-07-20 00:41:19,462 - INFO - Tests completed.
+2025-07-20 00:41:19,462 - INFO - Tests completed.
+2025-07-20 01:02:55,414 - INFO - Starting tests for MerriamWebsterAPI.fetch_definition method
+2025-07-20 01:02:55,700 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-20 01:02:55,700 - INFO - Fetching definition for word: hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-20 01:02:57,814 - INFO - Received response for word: hospital with status code: 200
+2025-07-20 01:02:57,814 - INFO - Received response for word: hospital with status code: 200
+2025-07-20 01:02:57,817 - INFO - Fetching definition for word: nonexistentword from URL: https://dictionaryapi.com/api/v3/references/medical/json//nonexistentword?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-20 01:02:57,817 - INFO - Fetching definition for word: nonexistentword from URL: https://dictionaryapi.com/api/v3/references/medical/json//nonexistentword?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-20 01:02:59,292 - INFO - Received response for word: nonexistentword with status code: 200
+2025-07-20 01:02:59,292 - INFO - Received response for word: nonexistentword with status code: 200
+2025-07-20 01:02:59,293 - WARNING - No definitions found for word: nonexistentword
+2025-07-20 01:02:59,293 - WARNING - No definitions found for word: nonexistentword
+2025-07-20 01:02:59,294 - ERROR - Invalid word input: 12345
+2025-07-20 01:02:59,294 - ERROR - Invalid word input: 12345
+2025-07-20 01:02:59,294 - ERROR - Invalid word input: 
+2025-07-20 01:02:59,294 - ERROR - Invalid word input: 
+2025-07-20 01:02:59,294 - INFO - All test cases passed.
+2025-07-20 01:02:59,294 - INFO - All test cases passed.
+2025-07-20 01:02:59,332 - INFO - Tests completed.
+2025-07-20 01:02:59,332 - INFO - Tests completed.
+2025-07-20 01:06:22,131 - INFO - Fetching definition for word: Hospital from URL: https://dictionaryapi.com/api/v3/references/medical/json//Hospital?key=acb621f9-3d2b-4592-bc09-b926ff3396e9
+2025-07-20 01:06:23,938 - INFO - Received response for word: Hospital with status code: 200

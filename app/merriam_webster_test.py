@@ -42,7 +42,6 @@ def test_fetch_definition():
 
     logging.info("All test cases passed.")
 
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     logging.info("Testing MerriamWebsterAPI.fetch_definition method")

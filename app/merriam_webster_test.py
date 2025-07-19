@@ -2,6 +2,7 @@
 import warnings
 import pytest
 import logging
+import os
 from merriam_webster import MerriamWebsterAPI
 
 # Suppress warnings
@@ -11,7 +12,7 @@ warnings.filterwarnings(
 )
 
 # Initialize the API client for testing
-BASE_PATH = "/Users/rishabh.gupta01/Desktop/Merriam-Webster"
+BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 test_client = MerriamWebsterAPI(BASE_PATH)
 
 

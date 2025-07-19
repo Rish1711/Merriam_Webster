@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import requests
+import os
 import argparse
 from configparser import ConfigParser
 import logging
@@ -14,13 +15,13 @@ warnings.filterwarnings(
 
 
 class MerriamWebsterAPI:
-    def __init__(self, base_path):
+    def __init__(self, BASE_PATH):
         """
         Initialize the Merriam-Webster API client.
         Args:
             base_path (str): Base path of the project directory.
         """
-        self.base_path = base_path
+        self.base_path = BASE_PATH
         self.config_path = f"{self.base_path}/conf/config.ini"
         self._setup_logging()
         self._load_config()
@@ -131,8 +132,10 @@ def main():
     args = parser.parse_args()
 
     # Initialize the Merriam-Webster API client
-    base_path = "/Users/rishabh.gupta01/Desktop/merriam-webster"
-    api_client = MerriamWebsterAPI(base_path)
+    BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    print(f"Base path: {BASE_PATH}")  # Debugging output
+    logging.info(f"Base path: {BASE_PATH}")
+    api_client = MerriamWebsterAPI(BASE_PATH)
 
     # Fetch and print the definition
     print(api_client.fetch_definition(args.word))

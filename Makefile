@@ -18,7 +18,7 @@ install:
 # Run tests
 .PHONY: test
 test:
-	$(PYTHON) -m pytest $(TEST_FILE) -v
+	PYTHONPATH=$(APP_DIR) $(PYTHON) -m pytest $(TEST_FILE) -v
 
 # Clean logs
 .PHONY: clean
@@ -46,7 +46,3 @@ help:
 	@echo "  run       - Run the application with a sample word"
 	@echo "  lint      - Lint the code using flake8"
 	@echo "  help      - Show this help message"
-# Move test file to correct name
-.PHONY: move_test_file
-move_test_file:
-	mv $(APP_DIR)/merriam_webster-test.py $(TEST_FILE)	

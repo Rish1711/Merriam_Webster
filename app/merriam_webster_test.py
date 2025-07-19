@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="urllib3")
 warnings.filterwarnings("ignore", message="urllib3 v2 only supports OpenSSL 1.1.1+")

@@ -28,6 +28,8 @@ class MerriamWebsterAPI:
 
     def _setup_logging(self):
         """Set up logging for the application."""
+        logs_dir = os.path.join(self.base_path, "logs")
+        os.makedirs(logs_dir, exist_ok=True)
         log_file = f"{self.base_path}/logs/merriam_webster.log"
         logging.basicConfig(level=logging.INFO)
         handler = RotatingFileHandler(

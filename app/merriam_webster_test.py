@@ -15,6 +15,9 @@ warnings.filterwarnings(
 BASE_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 test_client = MerriamWebsterAPI(BASE_PATH)
 
+# Ensure logs directory exists in CI
+os.makedirs(os.path.join(BASE_PATH, "logs"), exist_ok=True)
+
 
 def test_fetch_definition():
     """Test cases for the MerriamWebsterAPI.fetch_definition method."""

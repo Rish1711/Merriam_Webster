@@ -30,7 +30,7 @@ jobs:
         MERRIAM_WEBSTER_API_KEY: ${{ secrets.MERRIAM_WEBSTER_API_KEY }}
       run: |
         mkdir -p conf
-        echo "[merriam-webster]" > conf/config.ini
+        echo "[merriam-webster]" > conf/configsecrets.ini
         echo "api_key=${MERRIAM_WEBSTER_API_KEY}" >> conf/configsecrets.ini
 
 

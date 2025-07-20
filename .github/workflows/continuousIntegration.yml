@@ -46,7 +46,7 @@ jobs:
     
     # Upload test results as an artifact
     - name: Upload test results
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v3
       with:
         name: test-results
         path: Merriam_Webster_Test_Artifact.txt

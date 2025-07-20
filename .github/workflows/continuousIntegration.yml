@@ -24,6 +24,16 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    # Update configsecrets.ini with API key
+    - name: Update secrets 
+      env:
+        MERRIAM_WEBSTER_API_KEY: ${{ secrets.MERRIAM_WEBSTER_API_KEY }}
+      run: |
+        mkdir -p conf
+        echo "[merriam-webster]" > conf/config.ini
+        echo "api_key=${MERRIAM_WEBSTER_API_KEY}" >> conf/configsecrets.ini
+
+
     # Run linting
     - name: Run flake8
       run: flake8 app

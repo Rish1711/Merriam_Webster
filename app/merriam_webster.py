@@ -23,6 +23,7 @@ class MerriamWebsterAPI:
         """
         self.base_path = BASE_PATH
         self.config_path = f"{self.base_path}/conf/config.ini"
+        self.configsecrets_path = f"{self.base_path}/conf/configsecrets.ini"
         self._setup_logging()
         self._load_config()
 
@@ -44,7 +45,7 @@ class MerriamWebsterAPI:
     def _load_config(self):
         """Load configuration from the config file."""
         config = ConfigParser()
-        config.read(self.config_path)
+        config.read([self.config_path, self.configsecrets_path])
 
         self.api_key = config.get("merriam-webster", "api_key", fallback=None)
         if not self.api_key:

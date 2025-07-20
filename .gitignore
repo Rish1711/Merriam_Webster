@@ -7,3 +7,5 @@ venv/
 # Ignore log files
 logs/
 *.log
+#Ignore configsecrets.ini
+conf/*secrets*
